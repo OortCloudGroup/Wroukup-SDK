@@ -1,0 +1,2 @@
+rootProject.name = "IMSDK-Demo"
+include ':app'
