@@ -209,3 +209,28 @@ WorkUp-SDK/
     ├── MPAAS-APPSTORE-SDK集成指南.md       # 集成文档
     └── MPAAS-APPSTORE-SDK更新日志.md       # 变更记录
 ```
+
+---
+
+## 八、2.0.0-rc.20261117.3（新增，2026-11-20）
+
+对应官网下载页 6 张卡片的**新版模块化 SDK**（RC 集成候选，2026-11-17 构建，非正式发布版）。旧的 `IM/`、`MPAAS-APPSTORE/`、`IM-MPAAS-APPSTORE/` 三套 v1.x 目录保留不动。
+
+```
+2.0.0-rc.20261117.3/
+├── 01-IM/                        # IM
+├── 02-APPSTORE/                  # 应用市场
+├── 03-IM-APPSTORE/               # IM + 应用市场
+├── 04-AV/                        # 音视频
+├── 05-IM-APPSTORE-AV/            # IM + 应用市场 + 音视频
+├── 06-HOME-IM-APPSTORE-AV/       # 首页 + IM + 应用市场 + 音视频
+├── maven-repo/                   # 完整 file-based Maven 仓库（全部模块 AAR + POM）
+└── apks/                         # 6 个单 SDK demo APK（开发签名，仅验收用）
+```
+
+- 每个卡片目录含 `README.md`（组成/坐标/依赖写法）与 `docs/`（集成指南、更新日志）。
+- 本版为**模块化发布**：组合卡片按 README 列出的坐标引入即可，底座依赖由 `maven-repo/` 的 POM 自动解析。
+- 音视频模块需宿主额外引入 `io.github.webrtc-sdk:android:125.6422.07`。
+- 组合宿主 APK（OA2443）因超过 GitHub 单文件 100MB 限制未随仓库分发。
+- 正式发布阻塞项（16KB 兼容、RTMP 串流、离线推送等）详见交付文档，本目录内容仅用于集成与验收。
+

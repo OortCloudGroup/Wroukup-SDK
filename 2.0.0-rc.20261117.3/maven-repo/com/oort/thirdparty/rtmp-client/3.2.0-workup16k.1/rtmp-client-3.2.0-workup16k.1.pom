@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oort.thirdparty</groupId>
+  <artifactId>rtmp-client</artifactId>
+  <version>3.2.0-workup16k.1</version>
+  <packaging>aar</packaging>
+  <name>RTMP Client for Android - local 16KB candidate</name>
+  <description>Original io.antmedia 3.2.0 Java and 32-bit native payloads; arm64-v8a and x86_64 rebuilt from official Ant Media source for 16KB pages.</description>
+  <url>https://github.com/ant-media/LibRtmp-Client-for-Android</url>
+  <licenses>
+    <license><name>Apache License 2.0 (top-level)</name><url>https://www.apache.org/licenses/LICENSE-2.0.txt</url></license>
+    <license><name>LGPL 2.1 or later (bundled librtmp)</name><url>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url></license>
+  </licenses>
+  <scm><url>https://github.com/ant-media/LibRtmp-Client-for-Android</url><tag>3af67842f517f9c6bbd22b961878624d0c44b713</tag></scm>
+  <dependencies/>
+</project>
