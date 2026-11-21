@@ -15,7 +15,7 @@
 
 ```groovy
 repositories {
-    maven { url = uri('/path/to/2.0.0-rc.20261117.3/maven-repo') }
+    maven { url = uri('/path/to/Wroukup-SDK/maven-repo') }
     google()
     mavenCentral()
 }
