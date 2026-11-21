@@ -12,9 +12,9 @@
 | 集成指南 | [`IM-SDK集成指南.md`](IM-SDK集成指南.md) |
 | 更新日志 | [`IM-SDK更新日志.md`](IM-SDK更新日志.md) |
 
-## 界面预览（Demo 实机截图）
+## 界面预览（Demo 实机截图，含登录态验收实拍）
 
-<table><tr><td><img src="../screenshots/im-login.png" width="260"/><br/><sub>账号登录页</sub></td><td><img src="../screenshots/im-permissions.png" width="260"/><br/><sub>权限说明</sub></td></tr></table>
+<table><tr><td><img src="../screenshots/im-login.png" width="220"/><br/><sub>账号登录页</sub></td><td><img src="../screenshots/im-chats.png" width="220"/><br/><sub>会话列表</sub></td><td><img src="../screenshots/im-chat-window.png" width="220"/><br/><sub>聊天窗口</sub></td><td><img src="../screenshots/im-contacts.png" width="220"/><br/><sub>通讯录</sub></td><td><img src="../screenshots/im-moments.png" width="220"/><br/><sub>工作动态</sub></td><td><img src="../screenshots/im-permissions.png" width="220"/><br/><sub>权限说明</sub></td></tr></table>
 
-> 会议、聊天等在线功能需登录服务器账号后体验。
+> 会话、会议等在线功能需登录服务器账号后体验。
 > 快速集成三步：下载并解压 zip → Gradle 指向其中 `maven-repo/` → 按坐标引入，详见上方集成指南。

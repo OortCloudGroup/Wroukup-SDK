@@ -52,36 +52,46 @@ dependencies {
 - 完整组合宿主 APK（OA2443，199MB）超过 GitHub 单文件 100MB 限制，未随仓库分发。
 - RC 集成候选 ≠ 正式发布版。
 
-## 界面预览（无需运行，全部为 Demo 实机截图）
+## 界面预览（无需运行，全部为 Demo 实机截图，含登录态验收实拍）
 
 **IM SDK**
 
-<table><tr>
-<td><img src="screenshots/im-login.png" width="300"/><br/><sub>账号登录页</sub></td>
-<td><img src="screenshots/im-permissions.png" width="300"/><br/><sub>权限说明</sub></td>
-</tr></table>
+<table>
+<tr>
+<td><img src="screenshots/im-login.png" width="260"/><br/><sub>账号登录页</sub></td>
+<td><img src="screenshots/im-chats.png" width="260"/><br/><sub>会话列表（群聊/好友/未读）</sub></td>
+<td><img src="screenshots/im-chat-window.png" width="260"/><br/><sub>聊天窗口</sub></td>
+</tr>
+<tr>
+<td><img src="screenshots/im-contacts.png" width="260"/><br/><sub>通讯录（最近/组织/群组）</sub></td>
+<td><img src="screenshots/im-moments.png" width="260"/><br/><sub>工作动态</sub></td>
+<td><img src="screenshots/im-permissions.png" width="260"/><br/><sub>权限说明</sub></td>
+</tr>
+</table>
 
 **应用市场 SDK**
 
 <table><tr>
-<td><img src="screenshots/appstore-menu.png" width="300"/><br/><sub>Demo 功能菜单</sub></td>
-<td><img src="screenshots/appstore-home.png" width="300"/><br/><sub>应用市场首页</sub></td>
-<td><img src="screenshots/appstore-detail.png" width="300"/><br/><sub>应用详情</sub></td>
-<td><img src="screenshots/appstore-workbench.png" width="300"/><br/><sub>工作台（分类页签）</sub></td>
+<td><img src="screenshots/appstore-menu.png" width="260"/><br/><sub>Demo 功能菜单</sub></td>
+<td><img src="screenshots/appstore-home.png" width="260"/><br/><sub>应用市场首页</sub></td>
+<td><img src="screenshots/appstore-category.png" width="260"/><br/><sub>分类（76 个应用）</sub></td>
+<td><img src="screenshots/appstore-detail.png" width="260"/><br/><sub>应用详情</sub></td>
 </tr></table>
 
 **音视频 SDK**
 
 <table><tr>
-<td><img src="screenshots/av-home.png" width="300"/><br/><sub>发起/加入会议菜单（会议页需登录）</sub></td>
-<td><img src="screenshots/host-home.png" width="300"/><br/><sub>OA 宿主集成效果</sub></td>
+<td><img src="screenshots/av-home.png" width="260"/><br/><sub>发起/加入会议菜单</sub></td>
+<td><img src="screenshots/av-meeting-create.png" width="260"/><br/><sub>会议房间（邀请参会人）</sub></td>
+<td><img src="screenshots/av-meeting-room.png" width="260"/><br/><sub>会议中（视频+控制栏）</sub></td>
 </tr></table>
 
 **首页（门户）SDK**
 
 <table><tr>
-<td><img src="screenshots/portal-home.png" width="300"/><br/><sub>门户首页</sub></td>
-<td><img src="screenshots/portal-mine.png" width="300"/><br/><sub>我的</sub></td>
+<td><img src="screenshots/portal-home.png" width="260"/><br/><sub>门户首页</sub></td>
+<td><img src="screenshots/portal-mine.png" width="260"/><br/><sub>我的</sub></td>
+<td><img src="screenshots/host-home.png" width="260"/><br/><sub>OA 宿主集成效果</sub></td>
 </tr></table>
 
-> 会议、聊天等在线功能需登录服务器账号后体验；以上截图均可点开对应目录查看原图。
+> 登录态截图（会话列表、聊天、会议等）来自验收测试时实拍；会议、聊天等在线功能需登录服务器账号后体验。

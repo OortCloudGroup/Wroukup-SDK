@@ -12,9 +12,9 @@
 | 集成指南 | [`IM-MPAAS-APPSTORE-SDK集成指南.md`](IM-MPAAS-APPSTORE-SDK集成指南.md) |
 | 更新日志 | [`IM-MPAAS-APPSTORE-SDK更新日志.md`](IM-MPAAS-APPSTORE-SDK更新日志.md) |
 
-## 界面预览（Demo 实机截图）
+## 界面预览（Demo 实机截图，含登录态验收实拍）
 
-<table><tr><td><img src="../screenshots/im-login.png" width="260"/><br/><sub>IM 登录页</sub></td><td><img src="../screenshots/appstore-home.png" width="260"/><br/><sub>应用市场首页</sub></td></tr></table>
+<table><tr><td><img src="../screenshots/im-chats.png" width="220"/><br/><sub>IM 会话列表</sub></td><td><img src="../screenshots/im-chat-window.png" width="220"/><br/><sub>聊天窗口</sub></td><td><img src="../screenshots/appstore-home.png" width="220"/><br/><sub>应用市场首页</sub></td><td><img src="../screenshots/appstore-category.png" width="220"/><br/><sub>分类页</sub></td></tr></table>
 
-> 会议、聊天等在线功能需登录服务器账号后体验。
+> 会话、会议等在线功能需登录服务器账号后体验。
 > 快速集成三步：下载并解压 zip → Gradle 指向其中 `maven-repo/` → 按坐标引入，详见上方集成指南。

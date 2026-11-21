@@ -12,9 +12,9 @@
 | 集成指南 | [`MEET-SDK集成指南.md`](MEET-SDK集成指南.md) |
 | 更新日志 | [`MEET-SDK更新日志.md`](MEET-SDK更新日志.md) |
 
-## 界面预览（Demo 实机截图）
+## 界面预览（Demo 实机截图，含登录态验收实拍）
 
-<table><tr><td><img src="../screenshots/av-home.png" width="260"/><br/><sub>发起/加入会议菜单</sub></td><td><img src="../screenshots/host-home.png" width="260"/><br/><sub>OA 宿主集成效果</sub></td></tr></table>
+<table><tr><td><img src="../screenshots/av-home.png" width="220"/><br/><sub>会议功能菜单</sub></td><td><img src="../screenshots/av-meeting-create.png" width="220"/><br/><sub>会议房间·邀请参会人</sub></td><td><img src="../screenshots/av-meeting-room.png" width="220"/><br/><sub>会议中·视频画面</sub></td></tr></table>
 
-> 会议、聊天等在线功能需登录服务器账号后体验。
+> 会话、会议等在线功能需登录服务器账号后体验。
 > 快速集成三步：下载并解压 zip → Gradle 指向其中 `maven-repo/` → 按坐标引入，详见上方集成指南。
