@@ -1,54 +1,53 @@
 # WorkUp-SDK
 
 > **版本**: `2.0.0-rc.20261117.3`（RC 集成候选，2026-11-17 构建）
-> **更新**: 2026-11-21 全量替换旧版（v1.x 目录已移除）
+> **更新**: 2026-11-21 重构为官网 6 卡片结构，每卡片提供开箱即用依赖包
 > **状态**: 可用于集成与验收；正式发布阻塞项（16KB 兼容、RTMP 串流、离线推送等）见交付文档
 
-对应官网下载页 6 张卡片的**模块化 SDK**，目录结构与卡片一一对应：
+对应官网下载页 6 张卡片，每个卡片一个目录，内含 4 项：
 
-| 目录 | 卡片 |
-|---|---|
-| [`01-IM/`](01-IM/) | IM |
-| [`02-APPSTORE/`](02-APPSTORE/) | 应用市场 |
-| [`03-IM-APPSTORE/`](03-IM-APPSTORE/) | IM + 应用市场 |
-| [`04-AV/`](04-AV/) | 音视频 |
-| [`05-IM-APPSTORE-AV/`](05-IM-APPSTORE-AV/) | IM + 应用市场 + 音视频 |
-| [`06-HOME-IM-APPSTORE-AV/`](06-HOME-IM-APPSTORE-AV/) | 首页 + IM + 应用市场 + 音视频 |
+| 卡片目录 | SDK 依赖包（开箱即用） | Demo |
+|---|---|---|
+| [`IM/`](IM/) | `IM-SDK/IM-SDK-maven-repo.zip`（72.7MB） | `IM-SDK-Demo/workup-im-sdk-demo.apk` |
+| [`MPAAS-APPSTORE/`](MPAAS-APPSTORE/) | `MPAAS-APPSTORE-SDK/…-maven-repo.zip`（5.3MB） | `…-SDK-Demo/workup-appstore-sdk-demo.apk` |
+| [`IM-MPAAS-APPSTORE/`](IM-MPAAS-APPSTORE/) | `…-SDK/…-maven-repo.zip`（75.7MB） | `…-SDK-Demo/`（im + appstore 两个 demo） |
+| [`MEET/`](MEET/) | `MEET-SDK/MEET-SDK-maven-repo.zip`（0.2MB） | `MEET-SDK-Demo/workup-av-sdk-demo.apk` |
+| [`IM-MPAAS-APPSTORE-MEET/`](IM-MPAAS-APPSTORE-MEET/) | `…-SDK/…-maven-repo.zip`（75.7MB） | `…-SDK-Demo/`（im + appstore + av 三个 demo） |
+| [`Portal-IM-MPAAS-APPSTORE-MEET/`](Portal-IM-MPAAS-APPSTORE-MEET/) | `…-SDK/…-maven-repo.zip`（75.8MB） | `…-SDK-Demo/`（含 portal 共四个 demo） |
 
-每个卡片目录包含：
+每个卡片目录结构统一：
 
-- `README.md` — 组成模块、Maven 坐标、依赖写法
-- `docs/` — 集成指南、更新日志（来自各 SDK 仓库）
+```
+<卡片>/
+├── <卡片>-SDK/                  # <卡片>-SDK-maven-repo.zip（依赖闭包）+ 直接 AAR + README
+├── <卡片>-SDK-Demo/             # 编译好的 demo APK（开发签名，仅验收用）
+├── <卡片>-SDK集成指南.md
+└── <卡片>-SDK更新日志.md
+```
 
-公共资源：
+## 快速集成（三步）
 
-| 目录 | 说明 |
-|---|---|
-| [`maven-repo/`](maven-repo/) | 完整 file-based Maven 仓库：全部模块 AAR + POM（`com.oort.workup:*:2.0.0-rc.20261117.3`） |
-| [`apks/`](apks/) | 6 个单 SDK demo APK（开发签名，仅验收用） |
-
-## 快速集成
+1. 下载卡片目录里的 `<卡片>-SDK-maven-repo.zip` 并解压
+2. Gradle 指向解压出的仓库：
 
 ```groovy
 repositories {
-    maven { url = uri('/path/to/Wroukup-SDK/maven-repo') }
+    maven { url = uri('/解压路径/maven-repo') }
     google()
     mavenCentral()
 }
 dependencies {
-    // 按所选卡片引入对应坐标，例如 IM + 应用市场：
+    // 按卡片引入坐标，例如 IM：
     implementation "com.oort.workup:im:2.0.0-rc.20261117.3"
-    implementation "com.oort.workup:appstore:2.0.0-rc.20261117.3"
 }
 ```
 
-- 底座依赖（`base`/`core`/`frame`/`capabilities`/`auth` 等）由 `maven-repo/` 的 POM 自动解析，无需手动引入。
-- 音视频卡片需宿主额外引入 `io.github.webrtc-sdk:android:125.6422.07`（`av-call`/`av-screen-share` 对 WebRTC 为 `compileOnly`）。
-- 各卡片 README 列出了该组合的完整坐标清单。
+3. 各卡片的坐标清单见 `<卡片>-SDK/README.md`；音视频相关卡片需宿主额外引入 `io.github.webrtc-sdk:android:125.6422.07`。
 
-## 注意事项
+## 说明
 
-- 本版为**模块化发布**，区别于旧版单文件聚合 AAR（`omm-lib`）。
+- 每个 `-maven-repo.zip` 内含该组合的**完整内部依赖闭包**（base/core/frame/capabilities/auth/router/rtmp 等 AAR+POM 全部打包），解压即用、离线可用；第三方公开依赖（AndroidX、Smack 等）由 POM 声明、从 google()/mavenCentral() 解析。
+- [`maven-repo/`](maven-repo/) 是全量 file-based 制品库（覆盖全部 6 种组合的所有模块），整仓 clone 的用户可直接指向它。
 - demo APK 为开发签名，仅供安装验收，不能覆盖签名不同的正式包。
 - 完整组合宿主 APK（OA2443，199MB）超过 GitHub 单文件 100MB 限制，未随仓库分发。
-- RC 集成候选 ≠ 正式发布版，正式发布阻塞项见交付文档。
+- RC 集成候选 ≠ 正式发布版。
