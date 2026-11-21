@@ -58,10 +58,10 @@ implementation "io.github.webrtc-sdk:android:125.6422.07"
 
 > 以下为 Demo 实机运行截图，无需运行即可预览效果。
 
-![门户首页（Portal Demo）](preview/home.png)
+![门户首页（Portal Demo）](../../screenshots/av-home.png)
 
 *门户首页（Portal Demo）*
 
-![OA 宿主集成效果（完整宿主）](preview/host.png)
+![OA 宿主集成效果（完整宿主）](../../screenshots/host-home.png)
 
 *OA 宿主集成效果（完整宿主）*

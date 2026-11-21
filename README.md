@@ -52,15 +52,36 @@ dependencies {
 - 完整组合宿主 APK（OA2443，199MB）超过 GitHub 单文件 100MB 限制，未随仓库分发。
 - RC 集成候选 ≠ 正式发布版。
 
-## 界面预览（无需运行）
+## 界面预览（无需运行，全部为 Demo 实机截图）
 
-各卡片目录的 `*-SDK/README.md` 内嵌 Demo 实机运行截图：
+**IM SDK**
 
-| 组合 | 预览 |
-|---|---|
-| [IM](IM/IM-SDK/README.md) | 登录页 |
-| [应用市场](MPAAS-APPSTORE/MPAAS-APPSTORE-SDK/README.md) | 应用市场 / 工作台 / 应用列表 |
-| [IM+应用市场](IM-MPAAS-APPSTORE/IM-MPAAS-APPSTORE-SDK/README.md) | IM 登录 + 应用市场 |
-| [音视频](MEET/MEET-SDK/README.md) | 发起/加入会议 |
-| [IM+应用市场+音视频](IM-MPAAS-APPSTORE-MEET/IM-MPAAS-APPSTORE-MEET-SDK/README.md) | 三者合并预览 |
-| [首页+IM+应用市场+音视频](Portal-IM-MPAAS-APPSTORE-MEET/Portal-IM-MPAAS-APPSTORE-MEET-SDK/README.md) | 门户首页 + OA 宿主效果 |
+<table><tr>
+<td><img src="screenshots/im-login.png" width="300"/><br/><sub>账号登录页</sub></td>
+<td><img src="screenshots/im-permissions.png" width="300"/><br/><sub>权限说明</sub></td>
+</tr></table>
+
+**应用市场 SDK**
+
+<table><tr>
+<td><img src="screenshots/appstore-menu.png" width="300"/><br/><sub>Demo 功能菜单</sub></td>
+<td><img src="screenshots/appstore-home.png" width="300"/><br/><sub>应用市场首页</sub></td>
+<td><img src="screenshots/appstore-detail.png" width="300"/><br/><sub>应用详情</sub></td>
+<td><img src="screenshots/appstore-workbench.png" width="300"/><br/><sub>工作台</sub></td>
+</tr></table>
+
+**音视频 SDK**
+
+<table><tr>
+<td><img src="screenshots/av-home.png" width="300"/><br/><sub>发起/加入会议菜单（会议页需登录）</sub></td>
+<td><img src="screenshots/host-home.png" width="300"/><br/><sub>OA 宿主集成效果</sub></td>
+</tr></table>
+
+**首页（门户）SDK**
+
+<table><tr>
+<td><img src="screenshots/portal-home.png" width="300"/><br/><sub>门户首页</sub></td>
+<td><img src="screenshots/portal-mine.png" width="300"/><br/><sub>我的</sub></td>
+</tr></table>
+
+> 会议、聊天等在线功能需登录服务器账号后体验；以上截图均可点开对应目录查看原图。

@@ -44,10 +44,10 @@ dependencies {
 
 > 以下为 Demo 实机运行截图，无需运行即可预览效果。
 
-![IM 登录页](preview/im-login.png)
+![IM 登录页](../../screenshots/im-login.png)
 
 *IM 登录页*
 
-![应用市场 Demo 首页](preview/appstore-home.png)
+![应用市场 Demo 首页](../../screenshots/appstore-home.png)
 
 *应用市场 Demo 首页*

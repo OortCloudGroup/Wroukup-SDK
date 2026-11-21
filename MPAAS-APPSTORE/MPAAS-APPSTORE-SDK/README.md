@@ -40,6 +40,6 @@ dependencies {
 
 > 以下为 Demo 实机运行截图，无需运行即可预览效果。
 
-![Demo 首页：应用市场 / 工作台 / 首页版块 / 应用列表加载与查询](preview/home.png)
+![Demo 首页：应用市场 / 工作台 / 首页版块 / 应用列表加载与查询](../../screenshots/av-home.png)
 
 *Demo 首页：应用市场 / 工作台 / 首页版块 / 应用列表加载与查询*

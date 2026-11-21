@@ -50,6 +50,6 @@ implementation "io.github.webrtc-sdk:android:125.6422.07"
 
 > 以下为 Demo 实机运行截图，无需运行即可预览效果。
 
-![Demo 首页：发起视频/语音会议、按会议号加入会议](preview/home.png)
+![Demo 首页：发起视频/语音会议、按会议号加入会议](../../screenshots/av-home.png)
 
 *Demo 首页：发起视频/语音会议、按会议号加入会议*

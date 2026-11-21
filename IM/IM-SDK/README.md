@@ -42,6 +42,6 @@ dependencies {
 
 > 以下为 Demo 实机运行截图，无需运行即可预览效果。
 
-![登录页（账号登录，连接服务器后即可进入 IM 功能）](preview/login.png)
+![登录页（账号登录，连接服务器后即可进入 IM 功能）](../../screenshots/im-login.png)
 
 *登录页（账号登录，连接服务器后即可进入 IM 功能）*
