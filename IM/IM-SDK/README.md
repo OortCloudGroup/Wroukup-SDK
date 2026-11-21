@@ -36,3 +36,12 @@ dependencies {
 | `im-call` | `com.oort.workup:im-call:2.0.0-rc.20261117.3` |
 
 完整说明见上级目录的 `IM-SDK集成指南.md`，变更记录见 `IM-SDK更新日志.md`；仓库根目录的 `maven-repo/` 是全量制品库（含全部 6 种组合）。
+
+
+## 界面预览
+
+> 以下为 Demo 实机运行截图，无需运行即可预览效果。
+
+![登录页（账号登录，连接服务器后即可进入 IM 功能）](preview/login.png)
+
+*登录页（账号登录，连接服务器后即可进入 IM 功能）*

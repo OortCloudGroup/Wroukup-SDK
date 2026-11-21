@@ -34,3 +34,12 @@ dependencies {
 | `appstore` | `com.oort.workup:appstore:2.0.0-rc.20261117.3` |
 
 完整说明见上级目录的 `MPAAS-APPSTORE-SDK集成指南.md`，变更记录见 `MPAAS-APPSTORE-SDK更新日志.md`；仓库根目录的 `maven-repo/` 是全量制品库（含全部 6 种组合）。
+
+
+## 界面预览
+
+> 以下为 Demo 实机运行截图，无需运行即可预览效果。
+
+![Demo 首页：应用市场 / 工作台 / 首页版块 / 应用列表加载与查询](preview/home.png)
+
+*Demo 首页：应用市场 / 工作台 / 首页版块 / 应用列表加载与查询*

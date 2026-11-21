@@ -51,3 +51,16 @@ dependencies {
 - demo APK 为开发签名，仅供安装验收，不能覆盖签名不同的正式包。
 - 完整组合宿主 APK（OA2443，199MB）超过 GitHub 单文件 100MB 限制，未随仓库分发。
 - RC 集成候选 ≠ 正式发布版。
+
+## 界面预览（无需运行）
+
+各卡片目录的 `*-SDK/README.md` 内嵌 Demo 实机运行截图：
+
+| 组合 | 预览 |
+|---|---|
+| [IM](IM/IM-SDK/README.md) | 登录页 |
+| [应用市场](MPAAS-APPSTORE/MPAAS-APPSTORE-SDK/README.md) | 应用市场 / 工作台 / 应用列表 |
+| [IM+应用市场](IM-MPAAS-APPSTORE/IM-MPAAS-APPSTORE-SDK/README.md) | IM 登录 + 应用市场 |
+| [音视频](MEET/MEET-SDK/README.md) | 发起/加入会议 |
+| [IM+应用市场+音视频](IM-MPAAS-APPSTORE-MEET/IM-MPAAS-APPSTORE-MEET-SDK/README.md) | 三者合并预览 |
+| [首页+IM+应用市场+音视频](Portal-IM-MPAAS-APPSTORE-MEET/Portal-IM-MPAAS-APPSTORE-MEET-SDK/README.md) | 门户首页 + OA 宿主效果 |

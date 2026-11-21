@@ -52,3 +52,16 @@ implementation "io.github.webrtc-sdk:android:125.6422.07"
 ```
 
 完整说明见上级目录的 `Portal-IM-MPAAS-APPSTORE-MEET-SDK集成指南.md`，变更记录见 `Portal-IM-MPAAS-APPSTORE-MEET-SDK更新日志.md`；仓库根目录的 `maven-repo/` 是全量制品库（含全部 6 种组合）。
+
+
+## 界面预览
+
+> 以下为 Demo 实机运行截图，无需运行即可预览效果。
+
+![门户首页（Portal Demo）](preview/home.png)
+
+*门户首页（Portal Demo）*
+
+![OA 宿主集成效果（完整宿主）](preview/host.png)
+
+*OA 宿主集成效果（完整宿主）*
