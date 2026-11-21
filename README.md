@@ -4,16 +4,16 @@
 > **更新**: 2026-11-21 重构为官网 6 卡片结构，每卡片提供开箱即用依赖包
 > **状态**: 可用于集成与验收；正式发布阻塞项（16KB 兼容、RTMP 串流、离线推送等）见交付文档
 
-对应官网下载页 6 张卡片，每个卡片一个目录，内含 4 项：
+官网下载页 6 张卡片与仓库目录的对应关系（点目录名或预览即可跳转）：
 
-| 卡片目录 | SDK 依赖包（开箱即用） | Demo |
-|---|---|---|
-| [`IM/`](IM/) | `IM-SDK/IM-SDK-maven-repo.zip`（72.7MB） | `IM-SDK-Demo/workup-im-sdk-demo.apk` |
-| [`MPAAS-APPSTORE/`](MPAAS-APPSTORE/) | `MPAAS-APPSTORE-SDK/…-maven-repo.zip`（5.3MB） | `…-SDK-Demo/workup-appstore-sdk-demo.apk` |
-| [`IM-MPAAS-APPSTORE/`](IM-MPAAS-APPSTORE/) | `…-SDK/…-maven-repo.zip`（75.7MB） | `…-SDK-Demo/`（im + appstore 两个 demo） |
-| [`MEET/`](MEET/) | `MEET-SDK/MEET-SDK-maven-repo.zip`（0.2MB） | `MEET-SDK-Demo/workup-av-sdk-demo.apk` |
-| [`IM-MPAAS-APPSTORE-MEET/`](IM-MPAAS-APPSTORE-MEET/) | `…-SDK/…-maven-repo.zip`（75.7MB） | `…-SDK-Demo/`（im + appstore + av 三个 demo） |
-| [`Portal-IM-MPAAS-APPSTORE-MEET/`](Portal-IM-MPAAS-APPSTORE-MEET/) | `…-SDK/…-maven-repo.zip`（75.8MB） | `…-SDK-Demo/`（含 portal 共四个 demo） |
+| 官网下载页卡片 | GitHub 目录 | 预览截图 | 下载内容 |
+|---|---|---|---|
+| IM | [`IM/`](IM/README.md) | [登录页 + 权限说明（2张）](IM/README.md) | `IM-SDK/IM-SDK-maven-repo.zip`（72.7MB）+ demo APK |
+| 应用市场 | [`MPAAS-APPSTORE/`](MPAAS-APPSTORE/README.md) | [市场首页/应用详情/工作台/菜单（4张）](MPAAS-APPSTORE/README.md) | `…-SDK/…-maven-repo.zip`（5.3MB）+ demo APK |
+| IM+应用市场 | [`IM-MPAAS-APPSTORE/`](IM-MPAAS-APPSTORE/README.md) | [IM 登录 + 应用市场首页](IM-MPAAS-APPSTORE/README.md) | 组合依赖包 zip（75.7MB）+ demo APK |
+| 音视频 | [`MEET/`](MEET/README.md) | [会议菜单 + OA宿主效果（2张）](MEET/README.md) | `MEET-SDK/MEET-SDK-maven-repo.zip`（0.2MB）+ demo APK |
+| IM+应用市场+音视频 | [`IM-MPAAS-APPSTORE-MEET/`](IM-MPAAS-APPSTORE-MEET/README.md) | [三类截图合集](IM-MPAAS-APPSTORE-MEET/README.md) | 组合依赖包 zip（75.7MB）+ demo APK |
+| 首页+IM+应用市场+音视频 | [`Portal-IM-MPAAS-APPSTORE-MEET/`](Portal-IM-MPAAS-APPSTORE-MEET/README.md) | [门户首页 + 我的 + OA宿主](Portal-IM-MPAAS-APPSTORE-MEET/README.md) | Portal 依赖包 zip（75.8MB）+ demo APK |
 
 每个卡片目录结构统一：
 
