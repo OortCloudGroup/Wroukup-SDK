@@ -67,7 +67,7 @@ dependencies {
 <td><img src="screenshots/appstore-menu.png" width="300"/><br/><sub>Demo 功能菜单</sub></td>
 <td><img src="screenshots/appstore-home.png" width="300"/><br/><sub>应用市场首页</sub></td>
 <td><img src="screenshots/appstore-detail.png" width="300"/><br/><sub>应用详情</sub></td>
-<td><img src="screenshots/appstore-workbench.png" width="300"/><br/><sub>工作台</sub></td>
+<td><img src="screenshots/appstore-workbench.png" width="300"/><br/><sub>工作台（分类页签）</sub></td>
 </tr></table>
 
 **音视频 SDK**
