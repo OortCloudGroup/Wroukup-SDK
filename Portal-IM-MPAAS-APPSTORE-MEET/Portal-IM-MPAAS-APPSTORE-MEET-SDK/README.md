@@ -16,9 +16,13 @@
 
 ```groovy
 repositories {
-    maven { url = uri('/解压路径/maven-repo') }
+    maven { url = uri('/解压路径/maven-repo') }   // 本包：com.oort 全部模块+内部依赖闭包
     google()
     mavenCentral()
+    maven { url 'https://jitpack.io' }           // swipeback/Luban/MPAndroidChart 等第三方
+    maven { url 'https://maven.aliyun.com/repository/jcenter' }  // jcenter 归档库
+    maven { url 'https://developer.huawei.com/repo/' }           // 华为 HMS 推送
+    maven { url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases" }
 }
 dependencies {
     implementation "com.oort.workup:portal:2.0.0-rc.20261117.3"

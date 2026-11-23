@@ -32,9 +32,13 @@
 
 ```groovy
 repositories {
-    maven { url = uri('/解压路径/maven-repo') }
+    maven { url = uri('/解压路径/maven-repo') }   // 本包：com.oort 全部模块+内部依赖闭包
     google()
     mavenCentral()
+    maven { url 'https://jitpack.io' }           // swipeback/Luban/MPAndroidChart 等第三方
+    maven { url 'https://maven.aliyun.com/repository/jcenter' }  // jcenter 归档库
+    maven { url 'https://developer.huawei.com/repo/' }           // 华为 HMS 推送
+    maven { url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases" }
 }
 dependencies {
     // 按卡片引入坐标，例如 IM：
@@ -46,7 +50,7 @@ dependencies {
 
 ## 说明
 
-- 每个 `-maven-repo.zip` 内含该组合的**完整内部依赖闭包**（base/core/frame/capabilities/auth/router/rtmp 等 AAR+POM 全部打包），解压即用、离线可用；第三方公开依赖（AndroidX、Smack 等）由 POM 声明、从 google()/mavenCentral() 解析。
+- 每个 `-maven-repo.zip` 内含该组合的 **com.oort 全部模块 AAR+POM 及内部依赖闭包**，解压即用；第三方公开依赖（AndroidX、Smack、JitPack 系等）由 POM 声明、需联网从公共仓库解析——**repositories 必须按「快速集成」的完整清单配置**（缺 jitpack/aliyun-jcenter/华为仓库会解析失败），已实测 289 个制品全部可解析。
 - [`maven-repo/`](maven-repo/) 是全量 file-based 制品库（覆盖全部 6 种组合的所有模块），整仓 clone 的用户可直接指向它。
 - demo APK 为开发签名，仅供安装验收，不能覆盖签名不同的正式包。
 - 完整组合宿主 APK（OA2443，199MB）超过 GitHub 单文件 100MB 限制，未随仓库分发。
