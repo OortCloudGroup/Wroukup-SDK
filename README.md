@@ -73,6 +73,18 @@ dependencies {
 </tr>
 </table>
 
+> **2026-11-27 开发版新功能预览**：以下为 GitLab master 上 IM SDK 的新功能实机截图（IM Demo），尚未纳入当前交付包与 Demo APK。
+
+<table>
+<tr>
+<td><img src="screenshots/im-home-entries.png" width="200"/><br/><sub>消息页快捷入口（公众号/订阅号/应用号/群组/机器人）</sub></td>
+<td><img src="screenshots/im-mp-directory.png" width="200"/><br/><sub>公众号目录（三段切换/搜索）</sub></td>
+<td><img src="screenshots/im-bot-directory.png" width="200"/><br/><sub>机器人目录</sub></td>
+<td><img src="screenshots/im-bot-chat.png" width="200"/><br/><sub>机器人会话（设备选择底栏）</sub></td>
+<td><img src="screenshots/im-contacts-bot.png" width="200"/><br/><sub>通讯录「机器人」入口</sub></td>
+</tr>
+</table>
+
 **应用市场 SDK**
 
 <table><tr>

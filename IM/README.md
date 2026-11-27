@@ -16,5 +16,11 @@
 
 <table><tr><td><img src="../screenshots/im-login.png" width="220"/><br/><sub>账号登录页</sub></td><td><img src="../screenshots/im-chats.png" width="220"/><br/><sub>会话列表</sub></td><td><img src="../screenshots/im-chat-window.png" width="220"/><br/><sub>聊天窗口</sub></td><td><img src="../screenshots/im-contacts.png" width="220"/><br/><sub>通讯录</sub></td><td><img src="../screenshots/im-moments.png" width="220"/><br/><sub>工作动态</sub></td><td><img src="../screenshots/im-permissions.png" width="220"/><br/><sub>权限说明</sub></td></tr></table>
 
+### 2026-11-27 开发版新功能预览
+
+> GitLab master 上的新功能实机截图（IM Demo），尚未纳入当前交付包与 Demo APK；变更明细见 [`IM-SDK更新日志.md`](IM-SDK更新日志.md)「开发中」一节。
+
+<table><tr><td><img src="../screenshots/im-home-entries.png" width="180"/><br/><sub>消息页快捷入口（公众号/订阅号/应用号/群组/机器人）</sub></td><td><img src="../screenshots/im-mp-directory.png" width="180"/><br/><sub>公众号目录（三段切换/搜索）</sub></td><td><img src="../screenshots/im-bot-directory.png" width="180"/><br/><sub>机器人目录</sub></td><td><img src="../screenshots/im-bot-chat.png" width="180"/><br/><sub>机器人会话（设备选择底栏）</sub></td><td><img src="../screenshots/im-contacts-bot.png" width="180"/><br/><sub>通讯录「机器人」入口</sub></td></tr></table>
+
 > 会话、会议等在线功能需登录服务器账号后体验。
 > 快速集成三步：下载并解压 zip → Gradle 指向其中 `maven-repo/` → 按坐标引入，详见上方集成指南。

@@ -10,6 +10,12 @@
 
 <table><tr><td><img src="preview/im-login.png" width="240"/><br/><sub>IM 账号登录页</sub></td><td><img src="preview/im-permissions.png" width="240"/><br/><sub>权限说明</sub></td><td><img src="preview/im-chats.png" width="240"/><br/><sub>IM 会话列表</sub></td><td><img src="preview/im-chat-window.png" width="240"/><br/><sub>聊天窗口</sub></td><td><img src="preview/im-contacts.png" width="240"/><br/><sub>通讯录</sub></td><td><img src="preview/im-moments.png" width="240"/><br/><sub>工作动态</sub></td></tr></table>
 
+### 2026-11-27 开发版新功能预览
+
+> 以下为 GitLab master 上的新功能，**当前目录的 `workup-im-sdk-demo.apk`（2026-11-20 编译）尚不包含**，随下一次交付更新。
+
+<table><tr><td><img src="preview/im-home-entries.png" width="200"/><br/><sub>消息页快捷入口（公众号/订阅号/应用号/群组/机器人）</sub></td><td><img src="preview/im-mp-directory.png" width="200"/><br/><sub>公众号目录（三段切换/搜索）</sub></td><td><img src="preview/im-bot-directory.png" width="200"/><br/><sub>机器人目录</sub></td><td><img src="preview/im-bot-chat.png" width="200"/><br/><sub>机器人会话（设备选择底栏）</sub></td><td><img src="preview/im-contacts-bot.png" width="200"/><br/><sub>通讯录「机器人」入口</sub></td></tr></table>
+
 > 集成方式见上级目录的 `IM-SDK集成指南.md`。
 
 ## 体验账号
