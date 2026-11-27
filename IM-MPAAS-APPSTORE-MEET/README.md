@@ -6,9 +6,9 @@
 
 | 内容 | 位置 |
 |---|---|
-| SDK 依赖包（开箱即用，含完整依赖闭包） | [`IM-MPAAS-APPSTORE-MEET-SDK/IM-MPAAS-APPSTORE-MEET-SDK-maven-repo.zip`](IM-MPAAS-APPSTORE-MEET-SDK/) |
+| SDK 依赖包（开箱即用，含完整依赖闭包） | [`IM-MPAAS-APPSTORE-MEET-SDK/IM-MPAAS-APPSTORE-MEET-SDK-maven-repo.zip`](IM-MPAAS-APPSTORE-MEET-SDK) |
 | 模块 AAR 与 Maven 坐标说明 | [`IM-MPAAS-APPSTORE-MEET-SDK/README.md`](IM-MPAAS-APPSTORE-MEET-SDK/README.md) |
-| 编译好的 Demo APK（开发签名，仅验收用） | [`IM-MPAAS-APPSTORE-MEET-SDK-Demo/`](IM-MPAAS-APPSTORE-MEET-SDK-Demo/) —— `workup-im-sdk-demo.apk`、`workup-appstore-sdk-demo.apk`、`workup-av-sdk-demo.apk` |
+| 编译好的 Demo APK（开发签名，仅验收用） | [`IM-MPAAS-APPSTORE-MEET-SDK-Demo/`](IM-MPAAS-APPSTORE-MEET-SDK-Demo) —— `workup-im-sdk-demo.apk`、`workup-appstore-sdk-demo.apk`、`workup-av-sdk-demo.apk` |
 | 集成指南 | [`IM-MPAAS-APPSTORE-MEET-SDK集成指南.md`](IM-MPAAS-APPSTORE-MEET-SDK集成指南.md) |
 | 更新日志 | [`IM-MPAAS-APPSTORE-MEET-SDK更新日志.md`](IM-MPAAS-APPSTORE-MEET-SDK更新日志.md) |
 

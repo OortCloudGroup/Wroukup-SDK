@@ -6,9 +6,9 @@
 
 | 内容 | 位置 |
 |---|---|
-| SDK 依赖包（开箱即用，含完整依赖闭包） | [`IM-SDK/IM-SDK-maven-repo.zip`](IM-SDK/) |
+| SDK 依赖包（开箱即用，含完整依赖闭包） | [`IM-SDK/IM-SDK-maven-repo.zip`](IM-SDK) |
 | 模块 AAR 与 Maven 坐标说明 | [`IM-SDK/README.md`](IM-SDK/README.md) |
-| 编译好的 Demo APK（开发签名，仅验收用） | [`IM-SDK-Demo/`](IM-SDK-Demo/) —— `workup-im-sdk-demo.apk` |
+| 编译好的 Demo APK（开发签名，仅验收用） | [`IM-SDK-Demo/`](IM-SDK-Demo) —— `workup-im-sdk-demo.apk` |
 | 集成指南 | [`IM-SDK集成指南.md`](IM-SDK集成指南.md) |
 | 更新日志 | [`IM-SDK更新日志.md`](IM-SDK更新日志.md) |
 

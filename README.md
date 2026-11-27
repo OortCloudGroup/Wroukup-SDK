@@ -51,7 +51,7 @@ dependencies {
 ## 说明
 
 - 每个 `-maven-repo.zip` 内含该组合的 **com.oort 全部模块 AAR+POM 及内部依赖闭包**，解压即用；第三方公开依赖（AndroidX、Smack、JitPack 系等）由 POM 声明、需联网从公共仓库解析——**repositories 必须按「快速集成」的完整清单配置**（缺 jitpack/aliyun-jcenter/华为仓库会解析失败），已实测 289 个制品全部可解析。
-- [`maven-repo/`](maven-repo/) 是全量 file-based 制品库（覆盖全部 6 种组合的所有模块），整仓 clone 的用户可直接指向它。
+- [`maven-repo/`](maven-repo) 是全量 file-based 制品库（覆盖全部 6 种组合的所有模块），整仓 clone 的用户可直接指向它。
 - demo APK 为开发签名，仅供安装验收，不能覆盖签名不同的正式包。
 - 完整组合宿主 APK（OA2443，199MB）超过 GitHub 单文件 100MB 限制，未随仓库分发。
 - RC 集成候选 ≠ 正式发布版。

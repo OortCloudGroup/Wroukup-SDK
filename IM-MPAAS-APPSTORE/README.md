@@ -6,9 +6,9 @@
 
 | 内容 | 位置 |
 |---|---|
-| SDK 依赖包（开箱即用，含完整依赖闭包） | [`IM-MPAAS-APPSTORE-SDK/IM-MPAAS-APPSTORE-SDK-maven-repo.zip`](IM-MPAAS-APPSTORE-SDK/) |
+| SDK 依赖包（开箱即用，含完整依赖闭包） | [`IM-MPAAS-APPSTORE-SDK/IM-MPAAS-APPSTORE-SDK-maven-repo.zip`](IM-MPAAS-APPSTORE-SDK) |
 | 模块 AAR 与 Maven 坐标说明 | [`IM-MPAAS-APPSTORE-SDK/README.md`](IM-MPAAS-APPSTORE-SDK/README.md) |
-| 编译好的 Demo APK（开发签名，仅验收用） | [`IM-MPAAS-APPSTORE-SDK-Demo/`](IM-MPAAS-APPSTORE-SDK-Demo/) —— `workup-im-sdk-demo.apk`、`workup-appstore-sdk-demo.apk` |
+| 编译好的 Demo APK（开发签名，仅验收用） | [`IM-MPAAS-APPSTORE-SDK-Demo/`](IM-MPAAS-APPSTORE-SDK-Demo) —— `workup-im-sdk-demo.apk`、`workup-appstore-sdk-demo.apk` |
 | 集成指南 | [`IM-MPAAS-APPSTORE-SDK集成指南.md`](IM-MPAAS-APPSTORE-SDK集成指南.md) |
 | 更新日志 | [`IM-MPAAS-APPSTORE-SDK更新日志.md`](IM-MPAAS-APPSTORE-SDK更新日志.md) |
 

@@ -6,9 +6,9 @@
 
 | 内容 | 位置 |
 |---|---|
-| SDK 依赖包（开箱即用，含完整依赖闭包） | [`MEET-SDK/MEET-SDK-maven-repo.zip`](MEET-SDK/) |
+| SDK 依赖包（开箱即用，含完整依赖闭包） | [`MEET-SDK/MEET-SDK-maven-repo.zip`](MEET-SDK) |
 | 模块 AAR 与 Maven 坐标说明 | [`MEET-SDK/README.md`](MEET-SDK/README.md) |
-| 编译好的 Demo APK（开发签名，仅验收用） | [`MEET-SDK-Demo/`](MEET-SDK-Demo/) —— `workup-av-sdk-demo.apk` |
+| 编译好的 Demo APK（开发签名，仅验收用） | [`MEET-SDK-Demo/`](MEET-SDK-Demo) —— `workup-av-sdk-demo.apk` |
 | 集成指南 | [`MEET-SDK集成指南.md`](MEET-SDK集成指南.md) |
 | 更新日志 | [`MEET-SDK更新日志.md`](MEET-SDK更新日志.md) |
 
